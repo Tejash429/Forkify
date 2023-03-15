@@ -1,0 +1,92 @@
+.container {
+  --gradient-shadow: linear-gradient(75deg, #fbdb89, #f48982, #fbdb89);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+
+  background: var(--gradient-shadow);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 300% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.login {
+  scale: 150%;
+}
+.email {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pass {
+  margin-bottom: 10px;
+}
+.enter {
+  width: 100%;
+  height: 3vh;
+  border: none;
+  border-radius: 5px;
+  background: rgb(242, 212, 163);
+}
+#text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: orangered;
+  text-shadow: orangered 1.5px 1.5px 2px;
+  font-size: 25px;
+}
+.buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.signin {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: orangered;
+  text-shadow: orangered 1.5px 1.5px 2px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.signup {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: orangered;
+  text-shadow: orangered 1.5px 1.5px 2px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+}
+.forget {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: orangered;
+  text-shadow: orangered 1.5px 1.5px 2px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 18px;
+}
