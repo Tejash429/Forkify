@@ -10,21 +10,13 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-<<<<<<< HEAD
-=======
-}
-
-.card {
-  width: 30%;
->>>>>>> 89ec6214f95e4b62608e1758fe7647f326b7cd2d
 }
 
 .login {
   padding: 2rem;
   border-radius: 15px;
   background-color: #f2efee;
-<<<<<<< HEAD
-  width: 25%;
+  width: 20%;
   box-shadow: 8px 8px 2px rgba(79, 69, 65, 0.2);
 }
 .login input {
@@ -36,9 +28,6 @@
   background: #fff;
   box-shadow: 3px 3px 2px rgba(79, 69, 65, 0.2);
   padding-left: 0.6rem;
-=======
-  box-shadow: 8px 8px 2px rgba(79, 69, 65, 0.2);
->>>>>>> 89ec6214f95e4b62608e1758fe7647f326b7cd2d
 }
 .login input {
   width: 80%;
@@ -48,7 +37,7 @@
   border-radius: 20px;
   background: #fff;
   box-shadow: 3px 3px 2px rgba(79, 69, 65, 0.2);
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 
 .login input::placeholder {
@@ -68,18 +57,14 @@
 }
 #text {
   color: #f38e82;
-<<<<<<< HEAD
   font-size: 2rem;
-=======
-  font-size: 1.5rem;
->>>>>>> 89ec6214f95e4b62608e1758fe7647f326b7cd2d
 }
 .buttons {
   margin-top: 13px;
   margin-bottom: 10px;
-  width: 80%;
+
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .left {
