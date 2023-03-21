@@ -139,38 +139,43 @@ span {
   margin: 0 0.4rem;
 }
 
+.image-box {
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(97, 85, 81, 0.2);
+  border-radius: 5px;
+}
+.image-box img {
+  width: 100%;
+  height: 200px;
+}
+
+.text-box {
+  text-align: center;
+}
+.text-box .text-container {
+  padding: 30px 18px;
+}
 .card-flyer {
   border-radius: 5px;
   width: 80%;
   height: 40%;
   margin-left: 20px;
   margin-right: 20px;
-}
-.card-flyer .image-box {
-  background: #ffffff;
-  overflow: hidden;
-  box-shadow: 0 2rem 6rem 0.5rem rgba(97, 85, 81, 0.2);
-  border-radius: 5px;
-}
-.card-flyer .image-box img {
-  width: 100%;
-  height: 200px;
-}
-
-.card-flyer .text-box {
-  text-align: center;
-}
-.card-flyer .text-box .text-container {
-  padding: 30px 18px;
-}
-.card-flyer {
   background: #ffffff;
   margin-top: 30px;
   transition: all 0.2s ease-in;
   box-shadow: 0 2rem 6rem 0.5rem rgba(97, 85, 81, 0.2);
 }
-
-.card-flyer .text-box p {
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+.text-box p {
   margin-top: 10px;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -178,7 +183,7 @@ span {
   letter-spacing: 1px;
   color: #000000;
 }
-.card-flyer .text-box h6 {
+.text-box h6 {
   margin-top: 0px;
   margin-bottom: 4px;
   font-size: 18px;
@@ -201,6 +206,7 @@ span {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
 }
 
 .div-con :hover {
