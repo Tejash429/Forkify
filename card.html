@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="Logo" class="logo" />
+        <form class="search">
+          <input
+            type="text"
+            class="search__field"
+            placeholder="Search over 1,000,000 recipes..."
+          />
+          <button class="btn search__btn">
+            <img src="img/loupe.png" alt="" class="loupe" />
+            <span>Search</span>
+          </button>
+        </form>
+
+        <nav class="nav">
+          <button class="nav__btn nav__item">
+            <img src="img/bookmark.png" alt="" height="40%" />
+            <span>Bookmarks</span>
+          </button>
+        </nav>
+      </header>
+
+      <div class="recipe">
+        <div class="recipe_fig">
+          <img
+            class="recipe_img"
+            src="http://forkify-api.herokuapp.com/images/6010_MEDIUMa204.jpg"
+            alt="img"
+          />
+          <h1 class="recipe_title">
+            <span>PAELLA FRIED RICE</span>
+          </h1>
+        </div>
+        <div class="recipe_details">
+          <div class="recipe_info">
+            <img src="" alt="" />
+            <span>60</span>
+            <span>Minutes</span>
+          </div>
+          <div class="recipe_info">
+            <div class="recipe_info">
+              <img src="" alt="" />
+              <span>4</span>
+              <span>Servings</span>
+            </div>
+          </div>
+          <div class="bookmark">
+            <img
+              src="https://forkify-jonas.netlify.app/icons.c781f215.svg#icon-check"
+              alt="bookmark"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="recipe_ingredients">
+        <h2 class="heading-2">Recipe Ingredients</h2>
+        <ul class="recipe__ingredient-list">
+          <li class="recipe__ingredient">
+            <div class="recipe__quantity">1</div>
+            <div class="recipe__description">
+              <span class="recipe__unit">tbsp</span>
+              vegetable oil
+            </div>
+          </li>
+
+          <li class="recipe__ingredient">
+            <div class="recipe__quantity">2</div>
+            <div class="recipe__description">
+              <span class="recipe__unit"></span>
+              small chorizo sausages cut into slices
+            </div>
+          </li>
+
+          <li class="recipe__ingredient">
+            <div class="recipe__quantity">1</div>
+            <div class="recipe__description">
+              <span class="recipe__unit"></span>
+              onion sliced
+            </div>
+          </li>
+
+          <li class="recipe__ingredient">
+            <div class="recipe__quantity">1</div>
+            <div class="recipe__description">
+              <span class="recipe__unit"></span>
+              garlic clove chopped
+            </div>
+          </li>
+
+          <li class="recipe__ingredient">
+            <div class="recipe__quantity">1</div>
+            <div class="recipe__description">
+              <span class="recipe__unit">tsp</span>
+              turmeric
+            </div>
+          </li>
+
+          <li class="recipe__ingredient">
+            <div class="recipe__quantity">600</div>
+            <div class="recipe__description">
+              <span class="recipe__unit">g</span>
+              cooked plain rice
+            </div>
+          </li>
+
+          <li class="recipe__ingredient">
+            <div class="recipe__quantity">200</div>
+            <div class="recipe__description">
+              <span class="recipe__unit">g</span>
+              frozen cooked prawns
+            </div>
+          </li>
+
+          <li class="recipe__ingredient">
+            <div class="recipe__quantity">100</div>
+            <div class="recipe__description">
+              <span class="recipe__unit">g</span>
+              frozen peas
+            </div>
+          </li>
+
+          <li class="recipe__ingredient">
+            <div class="recipe__quantity"></div>
+            <div class="recipe__description">
+              <span class="recipe__unit"></span>
+              Lemon wedges to serve
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="recipe__directions">
+        <h2 class="heading--2">How to cook it</h2>
+        <p class="recipe__directions-text">
+          This recipe was carefully designed and tested by
+          <span class="recipe__publisher">BBC Good Food</span>. Please check out
+          directions at their website or you can watch this video
+        </p>
+        <a
+          class="btn--small recipe__btn"
+          href="http://www.bbcgoodfood.com/recipes/6010/paella-fried-rice"
+          target="_blank"
+        >
+          <span>Directions</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
